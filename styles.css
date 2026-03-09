@@ -161,3 +161,23 @@ body.dark-mode nav { background-color: #222222; }
 } 
 
 #back-to-top:hover { background-color: #1b0b38; }
+
+.filter-btn { 
+
+    padding: 8px 16px; margin: 5px; 
+
+    border: 1px solid #4c89af; 
+
+    background: rgba(255, 255, 255, 0.562); color: #4c63af; 
+
+    cursor: pointer; border-radius: 4px; 
+
+} 
+
+.filter-btn.active { background: #4c86af; color: rgb(6, 239, 138); } 
+
+.project-card { transition: all 0.3s; margin: 15px 0; padding: 15px; 
+
+    border: 1px solid #dddddd; border-radius: 8px; } 
+
+.project-card.hidden { display: none; }
